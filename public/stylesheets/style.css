@@ -1,0 +1,32 @@
+body {
+  /* padding: 10px; */
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+/* 
+footer {
+  z-index: 1;
+  opacity: 1;
+  margin-bottom: 0;
+} */
+
+.card {
+  width: 300px !important;
+}
+
+.card-header {
+  width: 100%;
+
+  text-align: center;
+}
+
+.card-image-top {
+  height: 200px !important;
+  object-fit: contain !important;
+  /* height: ; */
+  /* object-position: center; */
+}

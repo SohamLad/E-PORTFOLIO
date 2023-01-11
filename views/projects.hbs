@@ -1,0 +1,26 @@
+<div class="row card-container p-4">
+
+  {{! Iterate projects array }}
+  {{#each projects}}
+
+    <div class="card col-lg-3 ms-4">
+      <div class="card-header">
+        <img class="align-center card-image-top" src="/images/{{image}}" />
+      </div>
+
+      <div class="card-body">
+        <h4 class="card-titler text-center">{{title}}</h4>
+        <h5 class="card-text text-center">{{role}}</h5>
+        {{#each techStack}}
+          <span class="badge bg-dark">{{this}}</span>
+        {{/each}}
+      </div>
+
+      <div class="card-footer">
+        <p class="text-center">{{duration}}</p>
+      </div>
+    </div>
+    {{! </div> }}
+  {{/each}}
+
+</div>
